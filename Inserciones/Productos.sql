@@ -6,3 +6,31 @@ create table productos(
 	stock int not null,
 	constraint productos_pk primary key(codigo)
 )
+
+insert into productos(codigo,nombre,descripcion,precio,stock)
+values (15,'Sebastian','Una docena de Esferos',20,10)
+
+insert into productos(codigo,nombre,descripcion,precio,stock)
+values (17,'Pepe','Hojas',15,9)
+
+insert into productos(codigo,nombre,descripcion,precio,stock)
+values (18,'Julia','Fruta',11,50)
+
+insert into productos(codigo,nombre,descripcion,precio,stock)
+values (19,'Julio','Fundas',23.65,4)
+
+insert into productos(codigo,nombre,descripcion,precio,stock)
+values (11,'Beto','Pintura',29,10)
+
+
+
+insert into productos(codigo,nombre,precio,stock)
+values (16,'Mateo',15,4)
+
+insert into productos(codigo,nombre,precio,stock)
+values (21,'Thomas',16,4)
+
+insert into productos(codigo,nombre,precio,stock)
+values (22,'Perla',17,5)
+
+select * from productos 
